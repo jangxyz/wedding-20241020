@@ -1,0 +1,352 @@
+/* 테마 2-1 */
+/*
+    공통적용 폰트 색상
+                        */
+.section_title > li,
+/* 인사 */
+.insa_text, #insa_family_tbl td, #insa_family_tbl td span,
+/* 축하연락처 */
+.name_block,
+/* 달력 */
+.calendar_ym, .calendar td, .calendar_title li > span,
+/* 갤러리 */
+.photo_more_btn, .sub_title, #photo_more_row span,
+/* 안내사항 */
+.notice_text, 
+/* 오시는길 */
+.section_desc, .map_address > div, .map_navi_button, .map_address a,
+/* 계좌 */
+.bank_txt_view_btn > span, .bank_info_box, .bank_info_box > span,
+/* 축하화환 */
+.flower_wreath_wrapper > div, .aff_banner > div,
+/* 축하메시지*/
+.msg_button, .msg_memo_guest, .msg_name > div, .guest_navigation_wrapper > div 
+/* 소식공유 */
+.share_bottom > div {
+    color: #544741;
+}
+
+/* 
+    섹션공통
+                */
+.section {
+    background-color: #ffffff;
+}
+.section:nth-child(odd) {
+     background-color: #fdf8f4;
+}
+.section_header > div {
+    color: #92857d;
+}
+
+.section_title {
+    border-bottom: 1px solid #ddd0c7;
+    color: #544741;
+}
+.section_title li {
+    color: #544741;
+}
+/*
+    1. 초대 인사말
+                */
+.insa_text{
+    color: #544741;
+}
+.insa_name_row li, .insa_name_row div, .insa_name_row span {
+    color: #544741;
+}
+/*
+    2. 축하연락처
+                   */
+
+.section_content_wrap:before {
+    color: #544741;
+}
+.section_content_wrap:after {
+    color: #544741;
+}
+.contact_inner, .contact_row {
+    border-top-color: #988678;
+    border-bottom-color: #988678;
+	border-left-color: #988678;
+	border-right-color: #988678;
+}          
+.contact_row .name_block  {
+    border-color: transparent;
+}
+.contact_tel_img {
+	background: url('./img/icon_contact_t1c1_tel.png') ;
+	background-repeat: no-repeat;
+	background-size: 15px 16px;	
+	background-position: center right;
+}
+.contact_msg_img {
+    background: url('./img/icon_contact_t1c1_msg.png');
+    background-position: center right;
+    background-repeat: no-repeat;
+    background-size: 16px 15px;
+}
+
+.contact_row li {
+    color: #544741;
+}
+
+
+/* 
+    3. 달력 
+               */
+.calendar_section {
+    background-image: url('./img/img_calendar_t3c1_bg.jpg');
+    background-color: #fdf8f4;
+    background-position: center 80%;
+    background-repeat: no-repeat;
+    background-size: 700px 700px;
+}
+.calendar_inner {
+    background-color: #ffffff;
+}
+
+.calendar th {
+    color: #c8b39e;
+}
+.calendar td > span {
+    color: #524441;
+}
+.calendar .dday > span{
+    background-color: #dfc9bb;
+    color: #524441;
+}
+/* 
+    4. 갤러리 
+                 */
+.photo_title span {
+    color: #544741;
+}
+.photo_row {
+    background-color: #f8f8f8;
+}
+.photo_more_btn {
+    border: 1px solid #988678;
+    color: #524741;
+}
+#movie_pagination .swiper-pagination-bullet-active {
+    background-color: #93867d;
+}
+.sub_title {
+     color: #544741;
+ }
+ /* 갤러리 Atype */
+#photo_more_row {
+    border: 1px solid #988678;
+}
+ /* 타입b 배경색상 */
+ #photo_view_wrapper {
+    background-color: #ffffff;
+}
+
+/* 
+    5. 오시는길 
+                 */
+.map_address {
+    font-size: 16px;
+    line-height: 26px;
+    text-align: left;
+}
+.map_address > div {
+    color: #524741;
+}
+.map_address > div:first-child {
+    text-decoration: underline;
+}
+/* 전화문의 버튼 */
+.tel_ask_btn {
+    background-color: #dcc5b5;
+    background-image: url('./img/icon_contact_white_tel.png');
+    background-position: 12px center;
+    background-repeat: no-repeat;
+    background-size: auto 15px;
+    color: #ffffff;
+}
+/* tab menu button */
+.mcard_button2 {
+    width: 50%;
+    background-color: #f5f5f7;
+    color: #808388;
+}
+.mcard_button2_on {
+    background-color: #f2e5dd;
+    color: #534640;
+}
+/* navi button */
+
+.map_navi_button > a {
+    background-color: #f5f5f5;
+}
+/* 
+    6. 안내사항
+                 */
+.notice_text {
+    background-color: #edf2fc;
+    color: #333333;
+}
+.notice_row_no {
+    display:none;
+}
+.notice_txt_wrapper {
+    border: 1px solid #9b8675;
+}
+.notice_row_txt_title {
+    border-bottom: 1px solid #9b8675;
+}
+.notice_row_txt_title:after {
+    content: '★';
+    color: #e5d3c5;  
+}
+.notice_row_no {
+    color: #e5d3c5;
+}
+/*
+    7. 축하의마음전하기(계좌)
+                               */
+/* --- 계좌정보 테두리, arrow 색상 --- */
+/* arrow 색상 */
+.mcard_fold_arrow_btn:before {
+    border-color: #998675;
+}
+/* 외부 테두리 */
+.bank_family_group_block .family_members_box_wrapper {
+    border-color: #998675;
+}
+/* 내부 테두리 */
+.bank_info_row {
+    border-color: rgba(153,134,117, 0.2);
+}
+.section_desc {
+    color: #333333;
+}
+.bank_txt_notice {
+    color: #777777;
+}
+
+/*
+    7-1. 화환배송
+                    */
+.flower_wreath_wrapper > a > div {  /* 화환신청버튼 */
+    border: 1px solid #ffd4cf;
+}
+
+/*
+    8. 축하 메시지
+                      */
+.msg_name {
+    color: #000000;
+}
+.msg_date {
+    color: #777777;
+}
+.msg_button {
+    background-color: #e5d3c5;
+    color: #524741;
+}
+.reply_guest {
+    background-color: transparent;
+    border: 1px solid #988678;
+}
+.reply_guest .msg_button {
+    background-color: #f2e5dd;
+}
+.msg_memo {
+    color: #666666;
+}
+.guest_msg_memo {
+    color: #544741;
+}
+.msg_icon_wrapper {
+    height: 45px;
+    width: 45px;
+    background-image: url('./img/guest_emo_bg.png');
+    background-size: 45px 45px;
+}
+/* 댓글 아이콘 */
+.msg_text_block .heart, .reply .heart {
+    display: none;
+}
+.guest_article_icon1 {
+    background-color: transparent;
+    box-shadow: inset 2px 2px 0 0 #93867d;
+}
+.guest_article_icon1:after {
+    background-color: #93867d;
+}
+.guest_article_icon2 {
+    background-color: transparent;
+    box-shadow: inset 2px 2px 0 0 #93867d;
+}
+.guest_article_icon2:after {
+    background-color: #93867d;
+}
+/* 축하메시지 하단 구분선*/
+.guest_partition {
+    border-bottom: 1px solid #ded0c5;
+}
+.guest_navigation_wrapper > div {
+    color: #544741;
+}
+/* 더보기 버튼*/
+.guest_more_btn {
+    background-color: #f2e5dd;
+    border: 1px solid transparent; 
+    color: #666666;
+}
+/* 댓글 입력 박스 */
+#reply_add_wrapper {
+    border: 1px solid #e5dad3;
+}
+#reply_submit_button {
+    background-color: #f1eae5;
+}
+/* 
+    9. sns 소식공유 
+                      */
+.share_sns_btn {
+    background-image: url('img/icon_sns_t2c1_kakao.png');
+    background-repeat: no-repeat;
+    background-size: 35px;
+}
+.share_kakaostory_btn {
+    background-image: url('img/icon_sns_t2c1_story.png');
+}
+.share_line_btn {
+    background-image: url('img/icon_sns_t2c1_line.png');
+}
+.share_facebook_btn {
+    background-image: url('img/icon_sns_t2c1_facebook.png');
+}
+.share_bottom .heart:before {
+    background-color:#524741;
+}
+.share_bottom .heart:after {
+    background-color:#524741;
+}
+.share_bottom > div:first-child:before {
+    content: 'Thank you!';
+}
+
+ /* 
+    하트 이모티콘 
+                    */
+.heart:before{
+    background-color: #c08cc2;    
+}
+.heart:after {
+    background-color: #c08cc2;
+}
+
+
+/* 
+    숨김 처리 
+                */
+
+.day_title_date, .day_title_num {
+	display: none;
+}

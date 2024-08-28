@@ -1,0 +1,995 @@
+/* ====================================== 전 테마 공통 ========================================== */
+span {
+    font-size: 12px;
+}
+.video_obj_block {
+    padding-left: 35px;
+    padding-right: 35px;
+}
+/* 메인 설정 아이콘 */
+.home_settiong_wrapper {
+    height: 35px;
+    width: 60px;
+    border-radius: 10px;
+    position: fixed;
+    bottom: 60px;
+    right: 10px;
+    z-index: 10;
+    padding-top: 3px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    opacity: 0;
+}
+.home_settiong_btn {
+    height: 51px;
+    background-image: url('img/icon_setting_btn.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 47px 51px;
+    cursor: pointer;
+    font-size: 12px;
+    padding-left: 31px;
+}
+#photo_view_slide_left_button {
+    padding-left: 10px;
+}
+#photo_view_slide_right_button {
+    padding-right: 10px;
+}
+.setting_fade.on {
+    opacity: 1;
+    animation: setting_ani 1s ease 2;
+    text-shadow: 1px 1px 18px #ffffff ;
+    color: #ffffff;
+}
+@keyframes setting_ani {
+    0% {opacity: 0;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+}
+#calendar caption {
+    font-size: 0;
+    display: none;
+}
+ /* -----------계좌 팝업 -------------- */
+.homePopupBlock {
+    width: 80%;
+    background-color: #ffffff;
+    border: 1px solid #555555;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 10;
+}
+.bank_deposit_popup_wrapper {
+    width: 100%;
+    height: 100%;
+    background-image: url('/q/img/deposit_comfirm.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: 90%;
+}
+.border_box {
+    width: 50%;
+    height: 52px;
+    position: absolute;
+    top: 84px;
+    left: 75px;
+}
+.comfirm_notice {
+    width: 90%;
+    font-size: 16px;
+    color: #333;
+    background-color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 13px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.comfirm_btn_box {
+    width: 100%;
+    display: flex;
+    column-gap: 15px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    padding: 25px;
+}
+.comfirm_btn_box > div {
+    width: 50%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bold;
+    font-family: 'Nanum Barun Gothic';
+    padding-top: 5%;
+    padding-bottom: 5%;
+    text-align: center;
+}
+.bank_deposit_ok_btn {
+    background-color: #feea00;
+    color: #222222;
+}
+.bank_deposit_cancel_btn {
+    backgorund-color: #f1f1f1;
+    border: 1px solid #dddddd;
+    color: #868686;
+}
+.homePopupBlock img {
+    width: 100%;
+}
+ 
+ 
+/* ---------- 표기 순서 변경 관련 start */
+/* 연락처 */
+.section_content_wrap {
+    display: flex;
+    flex-direction: column;
+}
+.section_content_wrap.row_reverse {
+    flex-direction: column-reverse;
+}
+.section_content_wrap.row_reverse .contact_inner:first-child {
+    margin-bottom: 0px;
+}
+.section_content_wrap.row_reverse .contact_inner:last-child {
+    margin-bottom: 20px;
+}
+/* 계좌 */
+.bank_block_area {
+    display: flex;
+    flex-direction: column;
+}
+.bank_block_area.row_reverse {
+    flex-direction: column-reverse;
+}
+.bank_block_area.row_reverse .bank_family_group_block:first-child {
+    margin-bottom: 0px;
+}
+.bank_block_area.row_reverse .bank_family_group_block:last-child {
+    margin-bottom: 20px;
+}
+.section_desc.bank_section_desc {
+    margin-bottom: 20px;
+}
+/* ------------------------ 표기 변경 관련 end */
+/* ============= 연락처 block border ============= */
+.family_group_block.contact_inner {
+    border-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+}
+.contact_row  {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+}
+.family_group_block.contact_inner > .contact_row:last-of-type  {
+    border-bottom-width: 1px;
+}
+.contact_row .name_block  {
+    border-width: 0px 1px 0px 0px;
+    border-style: solid;
+}
+/*
+.family_group_block_a {
+	border: 0px solid transparent;
+}
+.family_group_block_b {
+	border: 0px solid transparent;
+}
+.bank_family_group_block_a {
+	border: 0px solid transparent;
+}
+.bank_family_group_block_b {
+	border: 0px solid transparent;
+}
+*/
+/* ============= 계좌 block border ============= */
+/* 계좌 레이아웃 테두리 start */
+.bank_family_group_block .family_members_box_wrapper {
+    border-width: 1px 1px 0px 1px;
+    border-style: solid;
+}
+.bank_family_group_block .family_members_box_wrapper:last-of-type {
+    border-bottom-width: 1px;
+}
+.bank_info_row {
+    border-style: solid;
+    border-width: 1px 0px 0px 0px;
+    justify-content: space-between;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/* =============계좌 =============== */
+/*
+.bank_family_group_block:first-of-type {
+    border: 1px solid red;
+}
+
+.section[data-section=bank] .bank_family_group_block:last-of-type {
+    border: 1px solid blue;
+}*/
+.section_desc.bank_section_desc {
+    line-height: 18px;
+}
+/* 신랑신부 양가 계좌번호 다 있는 경우에만 사이 여백*/
+.bank_block_2 {
+    margin-top: 25px;
+}
+.family_members {
+    display: flex;
+    font-size: 13px; 
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 12px;
+}
+/* 송금 url text */
+.bank_info_box .bank_info_deposit_url {
+    display: inline-block;
+    width: 145px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+.bank_link_wrapper {
+    display: flex;
+}
+.bank_info_row {
+    display: flex;
+    /*align-items: center;*/
+    overflow: hidden;
+}
+.bank_info_wrapper {
+    display: flex;
+    /*align-items: center;*/
+    overflow: hidden;
+}
+
+.bank_info_box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.bank_num_wrapper {
+    margin-left: 5px;
+}
+.bank_info_block > span, .bank_copy_btn_wrapper > span {
+    display: inline-block;
+}
+.bank_info_wrapper .bank_info_box:first-child {
+    margin-right: 10px;
+    flex: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    word-break: break-all;
+}
+/* 계좌복사 시작 */
+.bank_pop_copy_ui_front {
+    display: inline-block;
+    width: 30px;
+    height: 17px;
+    margin-top: -10px;
+    position: relative;
+}
+.bank_pop_copy_ui_front:before {
+    content: '';
+    width: 13px;
+    height: 17px;
+   /* background-color: #ffffff;*/
+    border: 1px solid #cccccc;
+    position: absolute;
+}
+.bank_pop_copy_ui_front:before {
+    top: 17px;
+    left: 15px;
+}
+.bank_pop_copy_ui_back {
+    position: absolute;
+}
+.bank_pop_copy_ui_back:before {
+    content: '';
+    width: 13px;
+    height: 5px;
+    border: 1px solid #cccccc;
+    border-bottom: none;
+    position: absolute;
+    top: 11px;
+    left: 10px;
+}
+.bank_pop_copy_ui_back:after {
+    content: '';
+    width: 13px;
+    height: 12px;
+   /* background-color: #ffffff;*/
+    border-width: 0px 0px 1px 1px;
+    border-color: #cccccc;
+    border-image: linear-gradient(to right, #cccccc 33%, transparent 40%);
+    border-image-slice: 1;
+    border-style: solid;
+    position: absolute;
+    top: 17px;
+    left: 10px;
+}
+/* 계좌복사 끝 */
+.bank_copy_btn_wrapper {
+    flex: none;
+}
+.bank_kakao_link_btn {
+    height: 100%;
+    display: inline-block;
+    position: relative;
+}
+.bank_kakao_link_btn:before {
+    width: 50px;
+    height: 22px;
+    content: '';
+    background-image: url('./img/kakao_deposit_url.jpg');
+    background-repeat: no-repeat;
+    background-size: 50px;
+    position: absolute;
+    top: 50%;
+    right: 0px;
+    transform: translateY(-50%);
+}
+
+/* 토글 아이콘 */
+.fold_arrow_btn_wrapper {
+    /*padding: 20px;*/
+}
+.mcard_fold_arrow_btn {
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+}
+.mcard_fold_arrow_btn:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+.mcard_fold_arrow_btn.on:before {
+    top: 18px;
+    transform: rotate(135deg);
+    transform-origin: center;
+}
+
+/* =============  초대인사말 ============= */
+
+.insa_text {
+    line-height: 24px;
+    margin-bottom: 30px;
+}   
+#insa_family_tbl {
+    border-spacing: 0 10px;
+}
+.insa_parent_block {
+    padding-right: 5px;
+}
+.insa_parent_block div {
+    line-height: 20px;
+}
+.insa_rel_block, .insa_ord_block {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.insa_ord_block {
+    text-align: center;
+}
+
+
+/* =============  축하연락처  ============= */
+
+
+/* =============  갤러리 A타입 ============= */
+.photo_view_heart_button {
+    width: 21px;
+    height: 21px;
+    background-image: url('img/photo_view-icon_heart.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+}
+.photo_view_heart_button.on {
+    width: 21px;
+    height: 21px;
+    background-image: url('img/icon_heart_red.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 21px;
+}
+/* =============  갤러리 B타입 ============= */
+.notScroll {
+    overflow: hidden; 
+    
+}
+.photo_pop_relative {
+    position: relative;
+}
+#photo_pic_pop_wrapper {   
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 21;
+    width: 100%;
+    height: 100%;
+     cursor: pointer;
+}
+.photo_pop_swiper_wrapper .swiper-slide {
+}
+.photo_pop_img_wrapper {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+#photo_view_img {
+    max-width: 99%;
+    max-height: 292px;
+}
+.photo_pop_img {
+    box-sizing: border-box;
+    opacity: 0.01;
+}
+.pop_bg_layer {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.7);
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 20;
+    display: none;
+}
+.pop_close_btn_wrap {
+    opacity: 0.01;
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+.pop_close_btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+}
+.pop_close_btn:before {
+    content: '';
+    width: 1px;
+    height: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pop_close_btn:after {
+    content: '';
+    width: 30px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.pop_close_btn:before, .pop_close_btn:after {
+    background-color: #ffffff;
+}
+.photo_pop_img_wrapper {
+    width: 100%;
+    text-align: center;
+}
+
+/* ============= 오시는길 ============= */
+
+.map_text_row:not(:last-child) {
+    margin-bottom: 30px;
+}
+.map_img_zoom_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 33px;
+}
+.map_object {
+    display: none;
+}
+.map_object:first-of-type {
+    display: block;
+}
+.map_view_img {
+    width: 100%;
+    background-color: #ffffff;
+}
+
+.map_lock_layer {
+    width: 100%;
+    height: 100%;
+    position: absolute; 
+    z-index:2;
+}
+.map_lock_img_wrapper {
+    font-size: 12px; 
+    color: gray;
+    text-align: center;
+    margin-top: 0px;
+    position: relative;
+}
+.map_lock_img {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    opacity: 0.8;
+    height: 35px;
+}
+
+/* =============  사진갤러리 ============= */
+
+
+/* 갤러리 A타입 포토 댓글 */
+.reply {
+    overflow: hidden;
+}
+.reply_photo {
+    background-image: url('img/guest_icon_reply.png');
+    background-repeat: no-repeat;
+    background-size: 9px 11px;
+    background-position: top left 15px;
+    padding-left: 30px;
+    padding-top: 0;
+    padding-bottom: 20px;
+
+}
+.reply_photo div {
+    border: none;
+    background: none;
+    font-family: 'Nanum Barun Gothic';
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.reply_photo .msg_block_top_photo {
+    display: inline-block;
+}
+.reply_photo .msg_button_block_photo div {
+    background: none;
+}
+.msg_reply_guest {
+    color: #333333;
+}
+.msg_reply_guest .msg_button  {
+    background: none;
+}
+.msg_text_block_photo div {
+    border: none;
+}
+.msg_text_block_photo .heart {
+    display: none;
+}
+.reply_photo .msg_date_photo {
+    font-size: 11px;
+    color: #bbbbbb;
+    line-height: 28px;
+    font-weight: normal;
+}
+.reply_photo .msg_button_photo {
+    background: none;
+    color: #bbbbbb;
+    font-weight: normal;
+    font-size: 11px;
+    margin-left: 15px;
+}
+.reply_photo .msg_block_bottom_photo {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.reply_photo .msg_name_photo {
+    font-weight: bold;
+    color: #555555;
+    font-size: 14px;
+    padding-right: 5px;
+    color: #666666;
+    font-size: 13px;
+    display: inline-block;
+    line-height: 20px;
+}
+.msg_memo_photo {
+    line-height: 20px;
+}
+.msg_reply_guest .heart  {
+    display: none;
+}
+.msg_writer_row_photo .msg_date {
+    display: none;
+}
+/* ============== 오시는길 =============== */
+
+/* 내비버튼 클릭시 설치 안내 버튼 */
+.inss {
+    width: 100%;
+    height: 38px;
+    line-height: 38px;
+    background-color: #ffffff;
+    border: 1px solid #e7e7e7;
+    border-radius: 3px;
+    color: #333333;
+    font-family: 'Nanum Barun Gothic';
+    font-size: 12px; 
+    text-align: center;
+}
+.inss a {
+    color: #333333;
+    font-family: 'Nanum Barun Gothic';
+}
+
+.map_empty_reg_btn > a {
+    background-color: rgba(255,255,255,0.5);
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    font-size: 15px;
+    padding: 10px;
+}
+.map_navi_button > span {
+    display: block;
+    margin-top: 5px;
+    font-size: 12px;
+}
+/* =============  축하메시지 ============= */
+
+
+/* 하단 네비게이션 공통 스타일 */
+.guest_partition {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.guest_navigation_wrapper {
+    margin-left: 35px;
+    margin-right: 35px;
+}
+.guest_more_btn {
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px; 
+    margin-left: 33px;
+    margin-right: 33px;
+    padding: 10px;
+    text-align: center;
+}
+/* 축하메시지 없을 때 이모티콘 */
+.guest_row_total_wrapper {
+    height: 220px; 
+    text-align: center;
+}
+.guest_row_total_img {
+    margin-top: 70px;
+}
+.guest_row_total_txt {
+    font-size: 13px;
+    color: #999999;
+    margin-top: 15px;
+}
+
+/* =============  참석여부 체크 ============= */
+.rsvp_checkin_btn, .rsvc_check_ui {
+    display: flex;
+    align-items: center;
+    border: 1px solid #f0d0bc;
+    padding-left: 5px;
+}
+.rsvc_check_ui {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.rsvp_checkin_btn span, .rsvc_check_ui span {
+    font-size: 13px;
+}
+.rsvp_message {
+    font-size: 14px;
+    margin-bottom: 10px
+}
+.rsvp_checkin_btn {
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.rsvp_rel_btn_wrapper {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.rsvp_rel_btn_wrapper > div {
+    width: calc(100% / 2 - 10px);
+    padding-right: 10px;
+    border-radius: 5px;
+}
+.rsvp_rel_btn_wrapper > div:first-child {
+    margin-right: 20px;
+}
+.mcard_toggle_wrapper {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mcard_fold_arrow_icon {
+    cursor: pointer;
+    padding: 20px;
+    position: relative;
+}
+.mcard_fold_arrow_icon:before {
+    content: '';
+    width: 10px;
+    height: 10px;
+    border-width: 0px 0px 1px 1px;
+    border-style: solid;
+    position: absolute;
+    top: 13px;
+    right: 15px;
+    transform: rotate(-45deg);
+    transform-origin: center;
+    transition: all 0.3s ease;
+}
+.mcard_fold_arrow_icon.on:before {
+    top: 18px;
+    transform: rotate(135deg);
+    transform-origin: center;
+}
+.rsvp_rel_btn_wrapper {
+    display: flex;
+    align-items: center;
+}
+.rsvp_inputs_wrapper .rsvp_name_row input.rsvp_name_input {
+    width: 100%;
+    background-color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 80px;
+}
+.rsvp_name_row {
+    position: relative;
+}
+.rsvc_meal_chek {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-left: 1px solid #dddddd;
+    padding-left: 3px;
+    position: absolute;
+    top: 0;
+    right: 5px;
+}
+.rsvp_name_row_add {
+    margin-top: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+.rsvp_name_row_add > span {
+    border: 1px solid #dddddd;
+    background-color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 6px 10px;
+}
+.check_complete_btn {
+    background-color: #f0d0bc;
+    margin-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.check_complete_btn > span {
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 15px;
+
+}
+/* =============  청첩장 만들기 notice ============= */
+#mcard_make_notice_block {
+    width: 100%;
+    padding: 7px 15px;
+    background-color: #ffffff;
+    border: 1px solid #dddddd;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 10;
+}
+.mcard_make_notice_text_wrapper {
+    margin-top: 7px;
+    margin-bottom: 15px;
+}
+.mcard_notice_title {
+    color: #333333;
+    font-family: 'Spoqa Han Sans';
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: -0.5px;
+    text-align: left;
+}
+.mcard_notice_title > span {
+    color: #111111;
+    font-family: 'Spoqa Han Sans';
+    font-size: 16px;
+    font-weight: 400;
+}
+#mcard_make_notice_block .mcard_notice_desc {
+    color: #666666;
+    font-family: 'Spoqa Han Sans';
+    font-size: 12px;
+    text-align: left;
+    margin-top: 7px;
+    line-height: 18px;
+}
+.mcard_make_notice_btn_wrapper {
+    display: flex;
+    column-gap:10px;
+}
+.mcard_make_notice_btn_wrapper > a {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    width: calc(100% / 2 - 5px);
+    display: inline-block;
+    font-family: 'Spoqa Han Sans';
+    font-size: 12px;
+    font-weight: 300;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    text-align: center;
+    text-decoration: none;
+}
+.make_mcard_btn {
+    background-color: #1b2631;
+    color: #ffffff;
+}
+.set_card_view_btn {
+    background-color: #ffffff;
+    border: 1px solid #1b2631;
+    color: #555555;
+}
+.custom_arrow {
+    display: inline-block;
+    position: relative;
+}
+.custom_arrow:before {
+    content: '';
+    border-bottom: 4px solid transparent;
+    border-top: 3px solid transparent;
+    border-left: 3px solid #82c5b0;
+    border-right: 4px solid transparent;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.mcard_notice_btn.make_mcard_btn .custom_arrow:before {
+    border-left: 4px solid #ffffff;
+}
+.mcard_notice_btn.set_card_view_btn .custom_arrow:before {
+    border-left: 4px solid #555555;
+}
+.qrcode_wrapper {
+    box-sizing: border-box; -moz-box-sizing: border-box; -webkit-box-sizing: border-box;
+    border: 1px solid #dddddd;
+}
+.mcard_box_title {
+    margin-top: 70px;
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.mcard_make_close_btn_wrapper {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
+}
+.mcard_make_close_btn {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: rotate(45deg);
+}
+.mcard_make_close_btn:before {
+    content: '';
+    width: 1px;
+    height: 15px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mcard_make_close_btn:after {
+    content: '';
+    width: 15px;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.mcard_make_close_btn:before, .mcard_make_close_btn:after {
+    background-color: #777777;
+}
+/* =============  섹션별 폰트 사이즈 =============  */
+
+.section_header {
+    font-size: 12px;
+}
+.section_title {
+    font-size: 20px;
+}
+
+/* 초대인사말 */
+.insa_text, #insa_family_tbl td, #insa_family_tbl td span {
+    font-size: 14px;
+}
+/* 축하연락처 */
+.name_block, .name_block > span {
+    font-size: 13px;
+}
+#insa_family_tbl td span, #insa_family_tbl td div {
+    white-space: pre;
+}
+
+/* 달력 */
+.calendar_title li > span {
+    font-size: 20px;
+}
+.calendar_ym {
+    font-size: 18px;
+}
+.calendar th, .calendar .dday > span {
+    font-size: 12px;
+}
+.calendar td > span {
+    font-size: 13px;
+}
+
+/* 갤러리 */
+.photo_row {
+    font-size: 12px;
+}
+.photo_counter_num, .photo_counter_txt {
+    font-size: 14px;
+}
+#photo_more_row span {
+    font-size: 13px;
+    line-height: 45px;
+}
+.photo_view_img_wrapper > img {
+    width: 100%;
+}
+#photo_thmb_wrapper {
+    overflow: hidden;
+}
+#prod_banner1_top > div {
+    font-family: 'Nanum Barun Gothic';
+}    
+.list1_prod_banner1_bottom {
+    margin-bottom: 20px;
+}
+.list2_prod_banner1_bottom {
+    margin-bottom: 0;
+}
+.photo_pop_img {
+    width: 100%;
+}
