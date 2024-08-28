@@ -1,131 +1,124 @@
-
-
-<html>
-<head>
-<title>:::Bojagicard:::</title>
-<meta http-equiv="Content-Type" content="text/html; charset=euc-kr">
-<script language="JavaScript" type="text/JavaScript">
-<!--
-function MM_preloadImages() { //v3.0
-  var d=document; if (d.images) { if (!d.MM_p) d.MM_p=new Array();
-    var i,j=d.MM_p.length,a=MM_preloadImages.arguments; for(i=0; i<a.length; i++)
-    if (a[i].indexOf("#")!=0) { d.MM_p[j]=new Image; d.MM_p[j++].src=a[i];}}
-}
-//--> 
-</script>
-</head>
-<link href='../../css/wed_hompy.css' rel='stylesheet' type='text/css'>
-<body leftmargin="0" topmargin="0" valign="center" bgcolor="#828282" >
-<table width="100%" height="100%" border="0" cellpadding="0" cellspacing="0">
-    <tr height=91>
-    <td> 
-  <tr> 
-   <td> 
-  <meta http-equiv='Refresh' content='0;URL=http://bojagicard.com/404error.php?page=/bgm.js?hash=1724820586'> 
- <br>
-<br>
-<div style="background-image:url(/ecard/images/bg_gray.gif); background-repeat:repeat-x; height:277px; text-align:center;padding-top:121px; ">
- <a href="http://bojagicard.com"><img src="ecard/images/aaa.gif" border="0" style="cursor:hand;"  onClick="window.open('http://www.bojagicard.com/wed_hom/doc/hompy/index.php?wed_code=', 'newwin','height=700,width=800,scrollbars=no,resizable=no');" ></a>
-</div> 
-   
-   </td>
-   
-   </tr>
-   <tr>
-       <td  height=91 >
-    <table width=100%>
-        <tr>
-            <td width=200>
-    <a href="/?PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04"><img src="/ecard/images/logo.gif" border=0></a>
-    </td>
-    <td>
-    <div style='overflow:hidden; height:90px;'>
-                <a href="/card/doc/product/product_detail.php?cardCode=gb277&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb277_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb285&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb285_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb295&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb295_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb253&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb253_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb217&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb217_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb299&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb299_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb338&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb338_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb265&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb265_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb237&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb237_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb274&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb274_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb261&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb261_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb300&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb300_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb160&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb160_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb148&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb148_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb264&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb264_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb345&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb345_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb118&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb118_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb258&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb258_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb280&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb280_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-                <a href="/card/doc/product/product_detail.php?cardCode=gb301&special=&list_type=&CardType=gb&page=1&add_page=&PHPSESSID=f30a7e2fe854f3df0acdd024c176ff04">
-        <img src="https://img.bojagicard.com/product/gb301_a_1.jpg" height=86 style="border:2px solid #fff; cursor:pointer;" border=0 />
-        </a>
-        
-            
-    </div>
+$(function() {
+        $('#bgm').on('click', function(e) {
+            if (e.target !== e.currentTarget) return false
+        })
     
-    </td>
-    </tr>
-    </table>
-</table>
-</body>
-</html>
+        $('#bgm_pp_btn').on('click', function() {
+    
+            if (parseInt($('#bgm').css('right')) < 0) {  // 숨겨짐
+    
+                if ($('#mcard_bgm').get(0).paused == false) {  // 재생중이면
+    
+                    // STOP
+                    $(this).removeClass('bgm_pp_btn_play')
+                    $('#mcard_bgm').get(0).pause()
+    
+                } else {
+    
+                    // PLAY
+                    $(this).addClass('bgm_pp_btn_play')
+                    $('#mcard_bgm').get(0).play()
+    
+                    // OPEN
+                    $('#bgm').delay(500).animate({
+                        'right': '12px'
+                    }, 120)
+    
+                    // AUTO CLOSE : TIMER
+                    setTimeout(function(){
+                        $('#bgm').animate({
+                            'right': '-202px'
+                        })
+                    }, 3000)
+    
+                }
+    
+            } else {
+    
+                // STOP
+                $(this).removeClass('bgm_pp_btn_play')
+                $('#mcard_bgm').get(0).pause()
+    
+                // CLOSE
+                $('#bgm').animate({
+                    'right': '-202px'
+                })
+    
+            }
+    
+        })
+    
+    
+        // CLOSE
+        $('#bgm_close_btn').on('click', function() {
+            $('#bgm').animate({
+                'right': '-186px'
+            })
+        })
+    
+    
+        // NEXT SONG
+        $('#mcard_bgm').on('ended', function() {
+    
+            var sseq = 0
+            var sseq_max = 0
+            $('song').each(function() {
+                sseq_max = $(this).data('sseq')
+                if ($('#mcard_bgm').get(0).currentSrc == encodeURI($(this).attr('src'))) {
+                    sseq = $(this).data('sseq')
+                }
+                
+            })
+    
+            var sseq_next = sseq + 1
+            if (sseq_next > sseq_max) sseq_next = 1
+            var bgm_next = $('song[data-sseq='+sseq_next+']')
+    
+            $('#bgm_cover_img').attr('src', '//gws1.bojagicard.com/audio/'+$(bgm_next).data('cover'))
+            $('#bgm_now_song').text($(bgm_next).data('song'))
+            $('#bgm_now_arti').text($(bgm_next).data('arti'))
+            $('#mcard_bgm > source').attr('src', $(bgm_next).attr('src'))
+            $('#mcard_bgm').get(0).load()
+            $('#mcard_bgm').get(0).play()
+            
+        })
+    
+        setInterval(function() {
+            bgm_prog_update()
+        }, 100)
+    
+    
+        /*
+        $(window).bind('scroll', function() {
+        
+            if (parseInt($('#bgm').css('right')) > 0) {  // 펼쳐져 있으면
+    
+                // AUTO CLOSE : SCROLL
+                setTimeout(function(){
+                    $('#bgm').animate({
+                        'right': '-186px'
+                    })
+                }, 1000)
+    
+            }
+        
+        })
+        */
+    
+    
+    })
+    
+    
+    
+    function bgm_prog_update() {
+        if ($('#mcard_bgm').get(0).paused == false) {
+            var cur = $('#mcard_bgm').get(0).currentTime
+            var dur = $('#mcard_bgm').get(0).duration
+            var per = parseInt(cur / dur * 100)
+            var wpx = 85 / 100 * per
+            $('#bgm_now_prog_played').css('width', wpx+'px')
+            if (cur == dur) {
+                $('#mcard_bgm').get(0)
+            }
+        }
+    }
