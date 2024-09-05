@@ -1,0 +1,68 @@
+/* 
+ * Nanum Barun Gothic Web Fonts
+ * https://github.com/hiun/NanumBarunGothic
+ * Copyright (c) 2010, NAVER Corporation (http://www.nhncorp.com) 
+ */
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 200;
+  src: url(/bojagi/font/NanumBarunGothicUltraLight.eot);
+  src:
+    local('Nanum Barun Gothic UltraLight'),
+    local('NanumBarunGothicUltraLight'),
+    url(/bojagi/font/NanumBarunGothicUltraLight.eot?#iefix)
+      format('embedded-opentype'),
+    url(/bojagi/font/NanumBarunGothicUltraLight.woff2) format('woff2'),
+    url(/bojagi/font/NanumBarunGothicUltraLight.woff) format('woff'),
+    url(/bojagi/font/NanumBarunGothicUltraLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 300;
+  src: url(/bojagi/font/NanumBarunGothicLight.eot);
+  src:
+    local('Nanum Barun Gothic Light'),
+    local('NanumBarunGothicLight'),
+    url(/bojagi/font/NanumBarunGothicLight.eot?#iefix)
+      format('embedded-opentype'),
+    url(/bojagi/font/NanumBarunGothicLight.woff2) format('woff2'),
+    url(/bojagi/font/NanumBarunGothicLight.woff) format('woff'),
+    url(/bojagi/font/NanumBarunGothicLight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 400;
+  src: url(/bojagi/font/NanumBarunGothic.eot);
+  src:
+    local('Nanum Barun Gothic'),
+    local('NanumBarunGothic'),
+    url(/bojagi/font/NanumBarunGothic.eot?#iefix) format('embedded-opentype'),
+    url(/bojagi/font/NanumBarunGothic.woff2) format('woff2'),
+    url(/bojagi/font/NanumBarunGothic.woff) format('woff'),
+    url(/bojagi/font/NanumBarunGothic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Nanum Barun Gothic';
+  font-style: normal;
+  font-weight: 700;
+  src: url(/bojagi/font/NanumBarunGothicBold.eot);
+  src:
+    local('Nanum Barun Gothic Bold'),
+    local('NanumBarunGothicBold'),
+    url(/bojagi/font/NanumBarunGothicBold.eot?#iefix)
+      format('embedded-opentype'),
+    url(/bojagi/font/NanumBarunGothicBold.woff2) format('woff2'),
+    url(/bojagi/font/NanumBarunGothicBold.woff) format('woff'),
+    url(/bojagi/font/NanumBarunGothicBold.ttf) format('truetype');
+}
+
+/*
+
+*/
