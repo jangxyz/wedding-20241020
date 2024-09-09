@@ -1,0 +1,1 @@
+import"../chunks/disclose-version.Bg9kRutz.js";import{s as t}from"../chunks/index-client.-McW_CZv.js";import{B as p}from"../chunks/BojagiLayout.CCAyHwuQ.js";import{S as s}from"../chunks/Sample326.B4G8RAKb.js";function n(o,r){p(o,{waitForjQuery:!1,children:(a,e)=>{s(a,t(()=>r.data))},$$slots:{default:!0}})}export{n as component};
