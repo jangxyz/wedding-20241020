@@ -1,1 +1,0 @@
-import{b as c,c as i,e as s}from"./runtime.DGRGQfB8.js";import{h as n,b as h,d as m}from"./template.CyZ4A-x8.js";function b(o,t,f){n&&h();var e=o,a,r;c(()=>{a!==(a=t())&&(r&&(s(r),r=null),a&&(r=i(()=>f(e,a))))}),n&&(e=m)}export{b as c};

@@ -1,0 +1,1 @@
+import{u as o,f as e,h as c,r as f,i,j as u,g as l,k as _}from"./runtime.D0pAcvPu.js";function g(){const s=c,n=s.l.u;n&&(n.b.length&&o(()=>{a(s),f(n.b)}),e(()=>{const r=i(()=>n.m.map(u));return()=>{for(const t of r)typeof t=="function"&&t()}}),n.a.length&&e(()=>{a(s),f(n.a)}))}function a(s){if(s.l.s)for(const n of s.l.s)l(n);_(s.s)}export{g as i};
