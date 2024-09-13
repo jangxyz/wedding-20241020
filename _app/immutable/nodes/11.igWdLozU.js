@@ -1,4 +1,4 @@
-import"../chunks/disclose-version.Bg9kRutz.js";import{p as w,a as k}from"../chunks/runtime.BfwBznww.js";import{i as v}from"../chunks/lifecycle.BBejD1wC.js";import{S}from"../chunks/Sample326.CnV9Xg7w.js";const I=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"}));function T(u,C){w(C,!1);let B="sample326";const D="김민준",e="이서연",a="2029-05-27 12:00",t="보자기카드 웨딩홀",A=["김병철","권정희","장남"],d=["이종수","박미영","차녀"],s=`
+import"../chunks/disclose-version.Bg9kRutz.js";import{p as w,a as k}from"../chunks/runtime.BfwBznww.js";import{i as v}from"../chunks/lifecycle.BBejD1wC.js";import{S}from"../chunks/Sample326.BCrkW5fx.js";const I=Object.freeze(Object.defineProperty({__proto__:null},Symbol.toStringTag,{value:"Module"}));function T(u,C){w(C,!1);let B="sample326";const D="김민준",e="이서연",a="2029-05-27 12:00",t="보자기카드 웨딩홀",A=["김병철","권정희","장남"],d=["이종수","박미영","차녀"],s=`
 두 사람이 사랑으로 만나
 진실과 이해로써 하나를 이루려 합니다.
 이 두 사람을 지성으로 아끼고 돌봐주신
