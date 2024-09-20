@@ -1,0 +1,1 @@
+function i(){let e=()=>{console.log("default resolve.")},t=()=>{};return[new Promise((o,n)=>{e=r=>{o(r)},t=n}),[e,t]]}function c(e,...t){const s={};for(const o of Object.keys(e))t.includes(o)||(s[o]=e[o]);return s}export{c as o,i as p};
